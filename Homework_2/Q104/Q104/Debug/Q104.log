@@ -4,12 +4,13 @@
   cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q104.cpp
   
   Q104.cpp
-f:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-f:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-f:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-f:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+d:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\南大软院\大二下\cpp-_topics\homework_2\q104\q104\q104.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
   Microsoft (R) Incremental Linker Version 14.16.27035.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  "/OUT:F:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:F:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:F:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.lib" /MACHINE:X86 Debug\Q104.obj 
-  Q104.vcxproj -> F:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.exe
+  "/OUT:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.lib" /MACHINE:X86 Debug\Q104.obj 
+  LINK : 没有找到 D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.exe 或上一个增量链接没有生成它；正在执行完全链接
+  Q104.vcxproj -> D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q104.exe
