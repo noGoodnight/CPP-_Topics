@@ -4,10 +4,8 @@
   cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q106.cpp
   
   Q106.cpp
-d:\南大软院\大二下\cpp-_topics\homework_2\q106\q106\q106.cpp(37): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
   Microsoft (R) Incremental Linker Version 14.16.27035.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
   "/OUT:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.lib" /MACHINE:X86 Debug\Q106.obj 
-  LINK : 没有找到 D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.exe 或上一个增量链接没有生成它；正在执行完全链接
   Q106.vcxproj -> D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.exe

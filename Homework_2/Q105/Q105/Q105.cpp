@@ -1,11 +1,12 @@
-#include <iostream>;
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main() {
 	int x;
 	int y;
-	int result = 1;
+	long long int result = 1;
 	char c;
 
 	cin >> c;
@@ -15,12 +16,9 @@ int main() {
 	cin >> c;
 	cin >> c;
 	cin >> y;
-	for (int i = 0; i < y; i++) {
-		result = result * x;
-		if (INT_MAX / x < result || INT_MIN / x > result) {
-			result = -1;
-			break;
-		}
+	result = (long long int)pow(x, y);
+	if (result > INT_MAX || result < INT_MIN) {
+		result = -1;
 	}
-	cout << -1 << endl;
+	cout << result << endl;
 }
