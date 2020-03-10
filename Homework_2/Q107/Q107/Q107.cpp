@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	char c;
-	char *p = new char;
+	char p[INT_MAX];
 	int len = 0;
 	int numOfParts;
 	string result = "";

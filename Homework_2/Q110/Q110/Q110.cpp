@@ -37,6 +37,11 @@ int main() {
 			result = result + to_string(letter[i]) + ",";
 		}
 	}
-	result = result.substr(0, result.length() - 1) + "]";
+	if (result.length() > 1) {
+		result = result.substr(0, result.length() - 1) + "]";
+	}
+	else {
+		result += "]";
+	}
 	cout << result << endl;
 }
