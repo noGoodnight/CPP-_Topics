@@ -1,1 +1,7 @@
-﻿  Q106.vcxproj -> D:\南大软院\大二下\CPP-_Topics\Homework_2\Q104\Debug\Q106.exe
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27035 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q106.cpp
+  
+  Q106.cpp
+F:\南大软院\大二下\CPP-_Topics\Homework_2\Q106\Q106\Q106.cpp : fatal error C1126: 自动分配超过 2G

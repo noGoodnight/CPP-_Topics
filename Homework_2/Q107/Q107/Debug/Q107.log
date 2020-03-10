@@ -4,4 +4,4 @@
   cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q107.cpp
   
   Q107.cpp
-D:\南大软院\大二下\CPP-_Topics\Homework_2\Q107\Q107\Q107.cpp : fatal error C1126: 自动分配超过 2G
+F:\南大软院\大二下\CPP-_Topics\Homework_2\Q107\Q107\Q107.cpp : fatal error C1126: 自动分配超过 2G
