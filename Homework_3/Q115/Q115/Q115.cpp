@@ -22,4 +22,5 @@ int main() {
 			std::cout << result[i] << std::endl;
 		}
 	}
+	return 0;
 }

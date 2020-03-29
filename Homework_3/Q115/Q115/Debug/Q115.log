@@ -7,5 +7,5 @@
   Microsoft (R) Incremental Linker Version 14.16.27035.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  "/OUT:D:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:D:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.lib" /MACHINE:X86 Debug\Q115.obj 
-  Q115.vcxproj -> D:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.exe
+  "/OUT:F:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:F:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:F:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.lib" /MACHINE:X86 Debug\Q115.obj 
+  Q115.vcxproj -> F:\南大软院\大二下\CPP-_Topics\Homework_3\Q114\Q114\Debug\Q115.exe
