@@ -51,8 +51,21 @@ void search(node *head, int num) {
 	std::cout << result << std::endl;
 }
 
-node *del(node *head, int rank) {
+int count(node *head) {
+	int result = 0;
 	node *cursor = head;
+	while (cursor != NULL) {
+		result++;
+		cursor = cursor->next;
+	}
+	return result;
+}
+
+node **del(node *head, node *tail, int rank) {
+	node *cursor = head;
+	node **nodePointers = new node*;
+	int length = count(head);
+
 	for (int i = 0; i < rank; i++) {
 		cursor = cursor->next;
 	}
@@ -63,21 +76,18 @@ node *del(node *head, int rank) {
 		cursor->next->prev = cursor->prev;
 	}
 	if (rank == 0) {
-		return cursor;
+		nodePointers[0] = head->next;
+		nodePointers[1] = tail;
+	}
+	else if (rank == length - 1) {
+		nodePointers[0] = head;
+		nodePointers[1] = tail->prev;
 	}
 	else {
-		return head;
+		nodePointers[0] = head;
+		nodePointers[1] = tail;
 	}
-}
-
-void count(node *head) {
-	int result = 0;
-	node *cursor = head;
-	while (cursor != NULL) {
-		result++;
-		cursor = cursor->next;
-	}
-	std::cout << result << std::endl;
+	return nodePointers;
 }
 
 node *reverse(node *tail) {
@@ -97,13 +107,14 @@ void print(node* head) {
 	node *cursor = head;
 	while (cursor != NULL) {
 		if (cursor->next == NULL) {
-			std::cout << cursor->value << std::endl;
+			std::cout << cursor->value;
 		}
 		else {
 			std::cout << cursor->value << " ";
 		}
 		cursor = cursor->next;
 	}
+	std::cout << std::endl;
 }
 
 int main() {
@@ -137,6 +148,9 @@ int main() {
 
 	while (std::cin >> c) {
 		char d[10];
+		node **nodePointers;
+		node *temp;
+
 		std::cin >> d;
 		switch (c)
 		{
@@ -169,14 +183,18 @@ int main() {
 			break;
 		case 'd':
 			std::cin >> a;
-			del(head, a);
+			nodePointers = del(head, tail ,a);
+			head = nodePointers[0];
+			tail = nodePointers[1];
 			print(head);
 			break;
 		case 'c':
-			count(head);
+			std::cout << count(head) << std::endl;
 			break;
 		case 'r':
+			temp = head;
 			head = reverse(tail);
+			tail = temp;
 			print(head);
 			break;
 		default:
