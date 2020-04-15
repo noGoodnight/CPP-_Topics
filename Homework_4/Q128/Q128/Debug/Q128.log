@@ -4,9 +4,9 @@
   cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q128.cpp
   
   Q128.cpp
-c:\南大软院\大二下\cpp-_topics\homework_4\q128\q128\q128.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+f:\南大软院\大二下\cpp-_topics\homework_4\q128\q128\q128.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
   Microsoft (R) Incremental Linker Version 14.16.27035.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  "/OUT:C:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:C:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.lib" /MACHINE:X86 Debug\Q128.obj 
-  Q128.vcxproj -> C:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.exe
+  "/OUT:F:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:F:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:F:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.lib" /MACHINE:X86 Debug\Q128.obj 
+  Q128.vcxproj -> F:\南大软院\大二下\CPP-_Topics\Homework_4\Q124\Debug\Q128.exe
