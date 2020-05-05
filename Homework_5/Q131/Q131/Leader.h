@@ -5,12 +5,14 @@ class Leader :
 {
 public:
 	inline Leader() {
-		HP = 12;
-		atk = 2;
+		HP = 6;
+		atk = 6;
 	}
 
 	void power();
 
 	void underAttack(Role *enemy);
+
+	void print();
 };
 

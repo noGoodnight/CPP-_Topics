@@ -20,5 +20,7 @@ public:
 	virtual void underAttack(Role *enemy);
 	
 	virtual void power();
+
+	virtual void print();
 };
 

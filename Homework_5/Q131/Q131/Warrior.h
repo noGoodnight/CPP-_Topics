@@ -12,5 +12,7 @@ public:
 	void power();
 
 	void underAttack(Role *enemy);
+
+	void print();
 };
 

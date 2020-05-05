@@ -25,8 +25,25 @@ void Player::addRole() {
 	default:
 		break;
 	}
+}
 
-	if (roles->size() == 1) {
-		fighter = roles->at(0);
+void Player::attack(Player *p2) {
+	Role *fighter1, *fighter2;
+	fighter1 = roles->at(0);
+	fighter2 = p2->roles->at(0);
+	fighter1->underAttack(fighter2);
+	fighter2->underAttack(fighter1);
+	fighter1->power();
+	fighter2->power();
+}
+
+void Player::print() {
+	int i = 0;
+	while (i < roles->size()) {
+		roles->at(i)->print();
+		if (i != roles->size() - 1) {
+			cout << endl;
+		}
+		i++;
 	}
 }

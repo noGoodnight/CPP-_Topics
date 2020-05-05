@@ -1,9 +1,16 @@
 ﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27035 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Q129.cpp
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Operation.cpp OperationAdd.cpp OperationDiv.cpp OperationFactory.cpp OperationMul.cpp OperationSub.cpp Q129.cpp
   
+  Operation.cpp
+  OperationAdd.cpp
+  OperationDiv.cpp
+  OperationFactory.cpp
+  OperationMul.cpp
+  OperationSub.cpp
   Q129.cpp
+  正在生成代码...
   Microsoft (R) Incremental Linker Version 14.16.27035.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
@@ -14,4 +21,5 @@
   Debug\OperationMul.obj 
   Debug\OperationSub.obj 
   Debug\Q129.obj 
+  LINK : 没有找到 F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q129.exe 或上一个增量链接没有生成它；正在执行完全链接
   Project1.vcxproj -> F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q129.exe

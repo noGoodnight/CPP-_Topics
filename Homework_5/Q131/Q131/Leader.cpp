@@ -1,4 +1,7 @@
 #include "Leader.h"
+#include <iostream>
+
+using namespace std;
 
 void Leader::power() {
 	if (isAlive()) {
@@ -7,5 +10,9 @@ void Leader::power() {
 }
 
 void Leader::underAttack(Role *enemy) {
-	HP -= enemy->getAtk;
+	HP -= enemy->getAtk();
+}
+
+void Leader::print() {
+	cout << "Leader " << atk << " " << HP;
 }

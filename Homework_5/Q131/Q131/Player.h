@@ -12,21 +12,23 @@ class Player
 {
 public:
 	vector<Role*> *roles;
-	Role *fighter;
 	
 	void addRole();
 
 	void attack(Player *p2);
 
-	void go(Player *p2);
+	void print();
 
 	inline bool isAlive() {
 		return roles->size() != 0;
 	}
 
-	inline Player() {
+	inline Player(int x) {
+		roles = new vector<Role*>;
+	}
+
+	inline ~Player() {
 		delete roles;
-		delete fighter;
 	}
 };
 
