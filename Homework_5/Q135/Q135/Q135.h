@@ -5,28 +5,62 @@
 
 using namespace std;
 
+class Statement {
+public :
+	string operation;
+	double money;
+	
+	inline Statement(string s,double amount) {
+		operation = s;
+		money = amount;
+	}
+
+	void print();
+};
+
 class Account {
 public:
-	int money;
+	string name;
+	double money;
+	vector<Statement*> *statements;
 
 	inline Account() {
-		money = 0;
+		money = 0.0;
+		statements = new vector<Statement*>;
 	}
+
+	void deposit(double);
+
+	void withdraw(double);
+
+	void printStatement();
+
+	virtual double totalInterestEarned();
 };
 
 class CheckingAccount :public Account {
 public:
-
+	CheckingAccount() {
+		name = "Checking Account";
+	}
+	
+	double totalInterestEarned();
 };
 
 class SavingsAccount :public Account {
 public:
-
+	SavingsAccount() {
+		name = "Savings Account";
+	}
+	double totalInterestEarned();
 };
 
 class MaxiSavingsAccount :public Account {
 public:
-
+	MaxiSavingsAccount() {
+		name = "Maxi-Savings Account";
+	}
+	double totalInterestEarned();
 };
 
 class Customer {
@@ -42,6 +76,14 @@ public:
 	inline ~Customer() {
 		delete accounts;
 	}
+	
+	inline int getAccountNum() {
+		return accounts->size();
+	}
+
+	void getStatement();
+
+	double totalInterestEarned();
 };
 
 class Bank {
@@ -62,5 +104,25 @@ public:
 	void createCustomer(string);
 
 	void createAccount(int);
+
+	void linkAccount(int, string);
+
+	void deposit(int, double);
+
+	void withdraw(int, double);
+
+	void sumTransactions(int);
+
+	void numberOfAccount(string);
+
+	void totalInterestEarned(string);
+
+	void getStatement(string);
+
+	void banktotalInserstPaid();
+
+	void customsum();
+
+	void go();
 };
 

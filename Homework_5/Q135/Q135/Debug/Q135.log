@@ -8,5 +8,4 @@
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
   "/OUT:F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q135.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q135.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q135.lib" /MACHINE:X86 Debug\Q135.obj 
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
-F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q135.exe : fatal error LNK1120: 1 个无法解析的外部命令
+  Q135.vcxproj -> F:\南大软院\大二下\CPP-_Topics\Homework_5\Q129\Debug\Q135.exe
