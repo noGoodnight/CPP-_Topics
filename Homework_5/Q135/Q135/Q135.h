@@ -29,6 +29,10 @@ public:
 		statements = new vector<Statement*>;
 	}
 
+	inline ~Account() {
+		delete statements;
+	}
+
 	void deposit(double);
 
 	void withdraw(double);
